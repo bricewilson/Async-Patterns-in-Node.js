@@ -1,0 +1,32 @@
+[
+  {
+      "clothingID": 1,
+      "itemName": "Carabiner",
+      "price": 9.99
+  },
+  {
+      "clothingID": 2,
+      "itemName": "Climbing Helmet",
+      "price": 39.99
+  },
+  {
+      "clothingID": 3,
+      "itemName": "Climbing Shoes",
+      "price": 59.00
+  },
+  {
+      "clothingID": 4,
+      "itemName": "Socks",
+      "price": 4.00
+  },
+  {
+      "clothingID": 5,
+      "itemName": "Backpack",
+      "price": 49.00
+  },
+  {
+      "clothingID": 6,
+      "itemName": "Rappelling Gloves",
+      "price": 15.99
+  }
+]
