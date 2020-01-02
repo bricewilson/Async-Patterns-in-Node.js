@@ -22,6 +22,9 @@
   "editor.wordBasedSuggestions": false,
   "editor.selectionHighlight": false,
   "editor.suggestOnTriggerCharacters": false,
+  "editor.showUnused": false,
+
+  "javascript.suggestionActions.enabled": false,
 
   "workbench.statusBar.visible": false,
 
