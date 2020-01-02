@@ -11,7 +11,7 @@
       "**/.DS_Store": true,
       "**/.gitignore": true,
       "npm-debug.log": true,
-      "*.js": true
+      "*.js": false
   },
 
   "editor.fontFamily": "Roboto Mono",
