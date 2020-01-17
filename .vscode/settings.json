@@ -32,7 +32,7 @@
 
   "window.zoomLevel": 1,
   
-  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontSize": 16,
 
   "editor.cursorBlinking": "solid"  
 }
