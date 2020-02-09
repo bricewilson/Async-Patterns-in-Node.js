@@ -43,5 +43,15 @@
         "clothingID": 9,
         "itemName": "Coat",
         "price": "50"
+    },
+    {
+        "clothingID": 10,
+        "itemName": "Gloves",
+        "price": "5"
+    },
+    {
+        "clothingID": 11,
+        "itemName": "Scarf",
+        "price": "10"
     }
 ]

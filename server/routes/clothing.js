@@ -8,7 +8,7 @@ module.exports = function(monitor) {
   let dataMonitor = monitor;
 
   dataMonitor.on('dataAdded', (item) => {
-    console.log(`New data was added: ${item}`);
+    setImmediate(() => console.log(`New data was added: ${item}`));
   });
   
   /* GET all clothing */
@@ -42,6 +42,8 @@ module.exports = function(monitor) {
         await saveClothingData(data);
   
         dataMonitor.emit('dataAdded', newClothingItem.itemName);
+
+        console.log('Returning new item to browser.');
   
         res.status(201).send(newClothingItem);
       }
