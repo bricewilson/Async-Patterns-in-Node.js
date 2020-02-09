@@ -28,5 +28,20 @@
         "clothingID": 6,
         "itemName": "Rappelling Gloves",
         "price": 15.99
+    },
+    {
+        "clothingID": 7,
+        "itemName": "Boots",
+        "price": "40"
+    },
+    {
+        "clothingID": 8,
+        "itemName": "Hat",
+        "price": "10"
+    },
+    {
+        "clothingID": 9,
+        "itemName": "Coat",
+        "price": "50"
     }
 ]

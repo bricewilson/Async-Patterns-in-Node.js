@@ -2,8 +2,15 @@ const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
 const bodyParser = require('body-parser');
+const DataMonitor = require('./server/DataMonitor');
 
-const clothing = require('./server/routes/clothing');
+let dataMonitor = new DataMonitor();
+
+dataMonitor.on('dataAdded', () => {
+  console.log('New data added.');
+});
+
+const clothing = require('./server/routes/clothing')(dataMonitor);
 const errors = require('./server/routes/errors');
 
 const app = express();
